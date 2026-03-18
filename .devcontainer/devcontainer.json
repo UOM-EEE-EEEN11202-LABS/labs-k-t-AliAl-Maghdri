@@ -1,7 +1,7 @@
 {
     "name": "EEEN11202 devcontainer",
     "image": "ghcr.io/uom-eee-eeen11202/dockerfile:2526.5",
-    //"runArgs": ["--platform=linux/arm64"],
+    "runArgs": ["--platform=linux/arm64"],
     "containerEnv": {
         "localWorkspaceFolder": "${containerWorkspaceFolder}"
     },
